@@ -1,1 +1,1 @@
-# odoo_carbonfootptint
+# odoo_carbonfootprint_tracker
