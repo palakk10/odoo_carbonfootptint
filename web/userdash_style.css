@@ -1,0 +1,230 @@
+/* General Styles */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background: #f0f4f8;
+    color: #333;
+}
+
+.dashboard-container {
+    max-width: 1200px;
+    margin: 20px auto;
+    padding: 20px;
+    background: rgba(255, 255, 255, 0.9);
+    border-radius: 20px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(10px);
+}
+
+/* Header */
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.header h1 {
+    font-size: 24px;
+    color: #2c3e50;
+}
+
+.quick-actions .action-button {
+    padding: 10px 20px;
+    background: #4caf50;
+    color: #fff;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    margin-left: 10px;
+    transition: all 0.3s ease;
+}
+
+.quick-actions .action-button:hover {
+    background: #45a049;
+}
+
+/* Main Stats */
+.main-stats {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.stat-card {
+    background: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    flex: 1;
+    margin: 0 10px;
+}
+
+.stat-card h3 {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.stat-card p {
+    font-size: 24px;
+    font-weight: bold;
+    color: #4caf50;
+}
+
+/* Circular Progress Bar */
+.progress-card {
+    background: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.circular-progress {
+    position: relative;
+    width: 150px;
+    height: 150px;
+    margin: 0 auto;
+}
+
+.progress {
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    background: conic-gradient(#4caf50 50%, #ddd 0);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.progress-text {
+    position: absolute;
+    font-size: 24px;
+    font-weight: bold;
+    color: #2c3e50;
+}
+
+/* AI Suggestions */
+.suggestions-card {
+    background: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+}
+
+.suggestions-card h3 {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.suggestions-card ul {
+    list-style: none;
+    padding: 0;
+}
+
+.suggestions-card li {
+    margin: 10px 0;
+    font-size: 14px;
+}
+
+/* Gamification Elements */
+.gamification {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.ecopoints, .leaderboard, .achievements {
+    background: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+    flex: 1;
+    margin: 0 10px;
+}
+
+.ecopoints h3, .leaderboard h3, .achievements h3 {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.ecopoints p {
+    font-size: 24px;
+    font-weight: bold;
+    color: #4caf50;
+}
+
+.leaderboard ol {
+    list-style: none;
+    padding: 0;
+}
+
+.leaderboard li {
+    margin: 10px 0;
+    font-size: 14px;
+}
+
+.achievements .badges {
+    display: flex;
+    gap: 10px;
+}
+
+.badge {
+    padding: 10px;
+    background: #ddd;
+    border-radius: 10px;
+    font-size: 14px;
+}
+
+.badge.unlocked {
+    background: #4caf50;
+    color: #fff;
+}
+
+/* Data Visualization */
+.data-visualization {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.chart-card, .heatmap-card {
+    background: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+    flex: 1;
+    margin: 0 10px;
+}
+
+.chart-card h3, .heatmap-card h3 {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+/* Real-Time Updates */
+.real-time-updates {
+    background: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+}
+
+.real-time-updates h3 {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.real-time-updates ul {
+    list-style: none;
+    padding: 0;
+}
+
+.real-time-updates li {
+    margin: 10px 0;
+    font-size: 14px;
+}

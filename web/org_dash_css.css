@@ -1,0 +1,169 @@
+/* General Styles */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background: #f0f4f8;
+    color: #333;
+}
+
+.emissions-container {
+    max-width: 1200px;
+    margin: 20px auto;
+    padding: 20px;
+    background: rgba(255, 255, 255, 0.9);
+    border-radius: 20px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(10px);
+}
+
+/* Header */
+.header h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+/* Real-Time Carbon Tracking */
+.real-time-tracking h2 {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.stats {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.stat-card {
+    background: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    flex: 1;
+    margin: 0 10px;
+}
+
+.stat-card h3 {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.stat-card p {
+    font-size: 24px;
+    font-weight: bold;
+    color: #4caf50;
+}
+
+.heatmap-card, .department-contribution {
+    background: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+}
+
+.heatmap-card h3, .department-contribution h3 {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+/* Energy Source Breakdown */
+.energy-breakdown {
+    background: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+}
+
+.energy-breakdown h2 {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+/* Sustainability Scorecard */
+.sustainability-scorecard {
+    background: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+}
+
+.sustainability-scorecard h2 {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.scorecard {
+    display: flex;
+    justify-content: space-between;
+}
+
+.rating {
+    text-align: center;
+}
+
+.rating .score {
+    font-size: 36px;
+    font-weight: bold;
+    color: #4caf50;
+}
+
+.suggestions ul {
+    list-style: none;
+    padding: 0;
+}
+
+.suggestions li {
+    margin: 10px 0;
+    font-size: 14px;
+}
+
+/* Quick Actions */
+.quick-actions {
+    background: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+}
+
+.quick-actions h2 {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.action-buttons {
+    display: flex;
+    gap: 10px;
+}
+
+.action-button {
+    padding: 10px 20px;
+    background: #4caf50;
+    color: #fff;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: all 0.3s ease;
+}
+/* Department-wise CO₂ Contribution Pie Chart */
+.department-contribution canvas {
+    width: 300px !important; /* Adjust the width as needed */
+    height: 300px !important; /* Adjust the height as needed */
+    margin: 0 auto; /* Center the chart */
+}
+
+/* Energy Source Breakdown Bar Chart */
+.energy-breakdown canvas {
+    width: 100% !important; /* Full width of the container */
+    height: 150px !important; /* 4 inches in pixels */
+    max-height: 150px; /* Ensure it doesn't exceed 4 inches */
+    margin: 0 auto; /* Center the chart */
+}
+.action-button:hover {
+    background: #45a049;
+}

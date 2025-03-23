@@ -1,0 +1,135 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+h1, h2, h3 {
+    color: #2c3e50;
+}
+
+.signup-container {
+    max-width: 800px;
+    margin: 50px auto;
+    padding: 20px;
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.logo img {
+    width: 100px;
+}
+
+/* Form Group Styles */
+.form-group {
+    margin: 15px 0;
+    text-align: left;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.form-group input, .form-group select {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+/* OAuth Signup Options */
+.oauth-options {
+    margin: 20px 0;
+}
+
+.oauth-button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    background: #fff;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.oauth-button:hover {
+    background: #f0f0f0;
+}
+
+.oauth-button img {
+    width: 20px;
+    margin-right: 10px;
+}
+
+/* Progress Bar */
+.progress-bar {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 0;
+}
+
+.progress-step {
+    padding: 10px;
+    background: #ddd;
+    border-radius: 5px;
+    flex: 1;
+    margin: 0 5px;
+    text-align: center;
+}
+
+.progress-step.active {
+    background: #4caf50;
+    color: #fff;
+}
+
+/* Terms & Conditions */
+.terms {
+    margin: 20px 0;
+    text-align: left;
+}
+
+.terms input {
+    margin-right: 10px;
+}
+
+/* Signup Button */
+.signup-button {
+    padding: 10px 20px;
+    background: #4caf50;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: all 0.3s ease;
+}
+
+.signup-button:hover {
+    background: #45a049;
+}
+
+/* Login Link */
+.login-link {
+    margin: 20px 0;
+}
+
+.login-link a {
+    color: #4caf50;
+    text-decoration: none;
+}
+
+/* Illustration */
+.illustration img {
+    width: 100%;
+    max-width: 300px;
+    margin-top: 20px;
+}
